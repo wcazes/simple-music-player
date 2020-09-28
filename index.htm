@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type=
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William's Music Player</title>
+    <link href="/imgs/favicon.png" rel="icon" id="favicon"/>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div id="music">
+        <div class="player">
+            <div class="art">
+                <img src="">
+            </div>
+            <audio id="myAudio">
+                <source id="song" src="" type="audio/mp3" autoplay>
+            </audio>
+            <div class="details">
+                <h1></h1>
+                <h2></h2>  
+                <div class="controls">
+                    <span onclick="prevSong()"><i class="fas fa-backward"></i></span>
+                    <span  class="middle" id="play" onclick="playAudio()"><i class="fas fa-play"></i></span>
+                    <span  class="middle" id="pause" onclick="pauseAudio()"><i class="fas fa-pause"></i></span>
+                    <span onclick="nextSong()"><i class="fas fa-forward"></i></span>
+                </div>
+            </div>
+            <div class="range"><input type="range" id="progressBar" class="progressBar" max="" min="0" onchange="changeProgressBar()">
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

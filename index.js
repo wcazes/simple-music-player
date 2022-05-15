@@ -12,14 +12,14 @@ var songs = [
         title:"In The End",
         artist:"Linkin Park",
         album:"./imgs/hybrid.jpg",
-        mp3: "0.mp3",
+        mp3: "/music/0.mp3",
     },
     {
         id:1,
         title:"Somewhere I Belong",
         artist:"Linkin Park",
         album:"./imgs/meteora.jpg",
-        mp3: "1.mp3",
+        mp3: "/music/1.mp3",
     }
 ];
 var i = 0;

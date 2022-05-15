@@ -4,6 +4,8 @@ var album = document.querySelector("img");
 var mp3 = document.querySelector("source");
 var progressBar = document.getElementById('progressBar');
 
+
+
 var songs = [
     {
         id:0,
@@ -93,9 +95,11 @@ function prevSong(){
     playAudio();
 
 }
+
 window.onload = function(){
     pause.style.display = 'none';
     currentSong(song);
     setInterval(updateProgressBar, 500);
     setInterval(next, 500);
+
 }
